@@ -12,6 +12,7 @@ services:
   web:
     build: ./web
     image: php:7.4-apache
+    restart: always
     # volumes:
     #   - ./web/sql_web:/var/www/html
     ports:
